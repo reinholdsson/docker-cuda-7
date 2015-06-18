@@ -11,7 +11,8 @@ RUN cd /opt && \
   wget $CUDA_RUN && \
   chmod +x *.run && \
   mkdir nvidia_installers && \
-  ./cuda_7.0.28_linux.run -extract=`pwd`/nvidia_installers #&& \
+  ./cuda_7.0.28_linux.run -extract=`pwd`/nvidia_installers
+#&& \
 #  cd nvidia_installers && \
 #  ./NVIDIA-Linux-x86_64-340.29.run -s -N --no-kernel-module
 
