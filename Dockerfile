@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Thomas Reinholdsson <reinholdsson@gmail.com>
 
-ENV CUDA RUN http://developer.download.nvidia.com/compute/cuda/7_0/Prod/local_installers/cuda_7.0.28_linux.run
+ENV CUDA_RUN http://developer.download.nvidia.com/compute/cuda/7_0/Prod/local_installers/cuda_7.0.28_linux.run
 
 RUN apt-get update && apt-get install -q -y \
   wget \
